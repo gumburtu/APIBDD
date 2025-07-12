@@ -11,7 +11,7 @@ public class BaseUrl {
 
     public static void settingup(String email, String password) {
         spec = new RequestSpecBuilder()
-                .setBaseUri("")
+                .setBaseUri("https://petstore.swagger.io/")
                 .setContentType(ContentType.JSON)
                 .addHeader("authorization", "Bearer " + generateToken(email, password))
                 .build();
