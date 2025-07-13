@@ -14,7 +14,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class US02_SevalPost {
+public class US02_SevalPostStepDefs {
     private Response response;
     private String petId;
     private String additionalMetadata;
