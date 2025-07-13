@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = {"petstore/stepdefs", "petstore/hooks"},
 
-        tags = "@US01SevalGet",
+        tags = "@US02SevalPost",
 
 
         dryRun = false,
