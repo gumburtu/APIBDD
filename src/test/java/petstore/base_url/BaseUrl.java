@@ -4,16 +4,22 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
-import static petstore.utilities.Authentication.generateToken;
-
 public class BaseUrl {
     public static RequestSpecification spec;
 
-    public static void settingup(String email, String password) {
+    public static void settingup() {
         spec = new RequestSpecBuilder()
-                .setBaseUri("https://petstore.swagger.io/")
+                .setBaseUri("https://petstore.swagger.io/v2/")
                 .setContentType(ContentType.JSON)
-                .addHeader("authorization", "Bearer " + generateToken(email, password))
+                .setAccept(ContentType.JSON)
                 .build();
+    }
+
+    // Alternative method if you want to get the spec without setting it up each time
+    public static RequestSpecification getSpec() {
+        if (spec == null) {
+            settingup();
+        }
+        return spec;
     }
 }
