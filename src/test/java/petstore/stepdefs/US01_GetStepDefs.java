@@ -7,7 +7,7 @@ import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.assertEquals;
 
-public class US01_SevalGetStepDefs {
+public class US01_GetStepDefs {
     private Response response;
     private String endpoint;
 

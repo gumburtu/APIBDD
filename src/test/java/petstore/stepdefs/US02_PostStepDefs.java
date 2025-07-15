@@ -6,15 +6,12 @@ import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 import static org.junit.Assert.*;
-import static org.hamcrest.Matchers.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
-public class US02_SevalPostStepDefs {
+public class US02_PostStepDefs {
     private Response response;
     private String petId;
     private String additionalMetadata;
