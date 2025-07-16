@@ -57,7 +57,7 @@ public class US02_PostStepDefs {
     public void iSendAPOSTRequestToUploadTheImage() {
         baseURI = baseUrl;
 
-        // Build the multipart request
+        // Build the multipart request.
         var requestSpec = given()
                 .contentType("multipart/form-data")
                 .accept("application/json");
