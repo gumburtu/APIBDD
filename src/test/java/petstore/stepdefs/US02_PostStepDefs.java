@@ -58,7 +58,6 @@ public class US02_PostStepDefs {
         baseURI = baseUrl;
 
         // Build the multipart request.
-
         var requestSpec = given()
                 .contentType("multipart/form-data")
                 .accept("application/json");
