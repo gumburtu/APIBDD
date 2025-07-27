@@ -102,6 +102,7 @@ public class US02_PostStepDefs {
     }
 
     // Helper method to create a test image file
+
     private void createTestImageFile(String filePath) throws IOException {
         // Create directory if it doesn't exist
         File file = new File(filePath);
