@@ -91,6 +91,7 @@ public class US02_PostStepDefs {
         String responseBody = response.getBody().asString();
 
         // Check if response contains typical upload confirmation indicators
+
         assertTrue("Response should contain success indicators",
                 responseBody.contains("uploaded") ||
                 responseBody.contains("success") ||
