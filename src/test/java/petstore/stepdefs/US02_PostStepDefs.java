@@ -124,7 +124,6 @@ public class US02_PostStepDefs {
 
     private byte[] createDummyImageContent() {
         // This is a minimal JPEG header - for testing purposes
-
         // In a real scenario, you'd use a proper test image file
         return new byte[] {
                 (byte) 0xFF, (byte) 0xD8, (byte) 0xFF, (byte) 0xE0,
