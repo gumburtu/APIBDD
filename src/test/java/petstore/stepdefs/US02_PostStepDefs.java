@@ -121,6 +121,7 @@ public class US02_PostStepDefs {
         System.out.println("Test image file created: " + filePath);
     }
 
+
     // Create dummy image content (simplified - you might want to use actual image bytes)
 
 
