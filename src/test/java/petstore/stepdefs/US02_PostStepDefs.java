@@ -113,8 +113,6 @@ public class US02_PostStepDefs {
         }
 
         // Create some dummy image-like content
-
-
         byte[] dummyImageContent = createDummyImageContent();
 
         Files.write(file.toPath(), dummyImageContent);
