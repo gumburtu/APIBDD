@@ -122,8 +122,6 @@ public class US02_PostStepDefs {
 
 
     // Create dummy image content (simplified - you might want to use actual image bytes
-
-
     private byte[] createDummyImageContent() {
         // This is a minimal JPEG header - for testing purposes
         // In a real scenario, you'd use a proper test image file
