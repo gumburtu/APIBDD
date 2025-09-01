@@ -128,8 +128,6 @@ public class US02_PostStepDefs {
         // This is a minimal JPEG header - for testing purposes
 
         // In a real scenario, you'd use a proper test image file
-
-
         return new byte[] {
                 (byte) 0xFF, (byte) 0xD8, (byte) 0xFF, (byte) 0xE0,
                 0x00, 0x10, 0x4A, 0x46, 0x49, 0x46, 0x00, 0x01,
