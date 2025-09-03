@@ -105,6 +105,7 @@ public class US02_PostStepDefs {
 
     private void createTestImageFile(String filePath) throws IOException {
         // Create directory if it doesn't exist
+
         File file = new File(filePath);
         File parentDir = file.getParentFile();
         if (parentDir != null && !parentDir.exists()) {
