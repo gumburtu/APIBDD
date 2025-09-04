@@ -71,6 +71,7 @@ public class US02_PostStepDefs {
         requestSpec = requestSpec.multiPart("file", imageFile, "image/jpeg");
 
         // Send the request
+
         response = requestSpec
                 .when()
                 .post("pet/" + petId + "/uploadImage");
