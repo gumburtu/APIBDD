@@ -14,10 +14,10 @@ import org.junit.runner.RunWith;
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-reports/cucumber.xml",
         },
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/ui_features",
         glue = {"petstore/stepdefs", "petstore/hooks"},
 
-        tags = "@US02SevalPost",
+        tags = "@Test01",
 
 
         dryRun = false,
