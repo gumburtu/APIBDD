@@ -16,7 +16,9 @@ public class US01_GetStepDefs {
         // Set base URI
 
         baseURI = "https://petstore.swagger.io/v2/";
+        
         // Extract endpoint from full URL
+
         if (url.contains("https://petstore.swagger.io/v2/")) {
             this.endpoint = url.replace("https://petstore.swagger.io/v2/", "");
         } else {
