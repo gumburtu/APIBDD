@@ -15,6 +15,7 @@ public class US01_GetStepDefs {
     public void iSendAGETRequestTo(String url) {
         // Set base URI
         baseURI = "https://petstore.swagger.io/v2/";
+
         // Extract endpoint from full URL
 
         if (url.contains("https://petstore.swagger.io/v2/")) {
