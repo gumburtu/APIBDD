@@ -76,6 +76,7 @@ public class TopfiytHomePage {
         long initialPosition = getCurrentScrollPosition();
 
         // Maksimum 5 saniye bekle scroll için
+
         for (int i = 0; i < 50; i++) {
             try {
                 Thread.sleep(100); // 100ms bekle
