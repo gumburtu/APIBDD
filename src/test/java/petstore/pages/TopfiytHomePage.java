@@ -72,6 +72,7 @@ public class TopfiytHomePage {
     }
 
     // Sayfa scroll işlemini bekle ve doğrula
+
     public boolean waitForScrollAndValidate() {
         long initialPosition = getCurrentScrollPosition();
 
