@@ -62,6 +62,7 @@ public class TopfiytHomePage {
     }
 
     // Scroll işleminin gerçekleşip gerçekleşmediğini kontrol etme
+
     public boolean hasPageScrolled(long initialPosition) {
         long currentPosition = getCurrentScrollPosition();
         System.out.println("Mevcut scroll pozisyonu: " + currentPosition);
