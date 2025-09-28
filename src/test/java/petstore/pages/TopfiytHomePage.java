@@ -52,6 +52,8 @@ public class TopfiytHomePage {
         whoIsTopfiytForLink.click();
 
         // Kısa bir bekleme - scroll animasyonu için
+
+
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
