@@ -21,6 +21,7 @@ public class TopfiytHomePage {
     private WebElement whoIsTopfiytForLink;
 
     // Constructor
+
     public TopfiytHomePage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
