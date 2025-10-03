@@ -16,7 +16,6 @@ public class TopfiytHomePage {
     private JavascriptExecutor js;
 
     // Verdiğiniz XPath ile element tanımlaması
-
     @FindBy(xpath = "//ul[@id='main-menu']//a[@title='Topfiyt Kimler İçin?'][normalize-space()='Who is Topfiyt For?']")
     private WebElement whoIsTopfiytForLink;
 
