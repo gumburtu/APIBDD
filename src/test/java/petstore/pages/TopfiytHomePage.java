@@ -45,6 +45,8 @@ public class TopfiytHomePage {
     }
 
     // "Who is Topfiyt For?" linkine tıklama
+
+
     public void clickWhoIsTopfiytForLink() {
         // Başlangıç scroll pozisyonunu kaydet
         long initialScrollPosition = getCurrentScrollPosition();
