@@ -37,6 +37,8 @@ public class TopfiytHomePage {
     }
 
     // Scroll pozisyonunu alma
+
+
     public long getCurrentScrollPosition() {
         return (Long) js.executeScript("return window.pageYOffset;");
     }
