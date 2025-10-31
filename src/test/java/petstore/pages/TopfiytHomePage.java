@@ -30,6 +30,8 @@ public class TopfiytHomePage {
     }
 
     // Ana sayfaya gitme
+
+
     public void goToHomePage() {
         driver.get("https://www.topfiyt.com/");
         // Sayfa tam yüklenene kadar bekle
